@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Aurora | Cafeteria Artesanal</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+  <header class="cabecalho">
+    <div class="container nav-container">
+      <div class="logo">Café Aurora</div>
+      <nav class="menu">
+        <ul class="menu__lista">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#cardapio">Cardápio</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<main>
+<section id="inicio" class="hero">
+    <div class="container hero_conteudo">
+          <h1 class="hero_titulo">O melhor café artesanal do bairro</h1>
+          <p class="hero_texto">Grãos selecionados, pães fresquinhos e um espaço feito para você relaxar.</p>
+          <a href="#cardapio" class="botao">Ver cardápio</a>
+    </div>
+</section>
+
+<section id="sobre" class="sobre">
+      <div class="container sobre_conteudo">
+        <div class="sobre_texto">
+          <h2>Sobre nós</h2>
+          <p>A Café Aurora nasceu do amor por um café bem feito. Desde 2020, torramos nossos próprios grãos e preparamos cada xícara com cuidado.</p>
+          <p>Mais do que uma cafeteria, somos um ponto de encontro do bairro: um lugar para conversar, trabalhar ou simplesmente respirar.</p>
+        </div>
+        <div class="sobre_imagem">
+          <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80" alt="Xicara de Café expresso">
+        </div>
+      </div>  
+    </section>
+ 
+    <section id="cardapio" class="cardapio-secao">
+      <div class="container">
+        <h2 class="secao_titulo">Nosso cardápio</h2>
+      
+      <div class="cardapio_grid"> 
+        <article class="card">
+          <h3 class=" card__titulo">Expresso</h3>
+          <p class="card__descricao">Café curto e intenso, com crema aveludada</p>
+           <span class="card__preco">R$ 7,00</span>
+        </article>
+
+      <article class="card">
+         <h3 class=" card__titulo">Cappuccino</h3>
+          <p class="card__descricao">Expresso, leite vaporizado e espuma cremosa</p>
+          <span class="card__preco">R$ 12,00</span>
+     </article>
+
+     <article class="card">
+        <h3 class=" card__titulo">Pão na chapa</h3>
+        <p class="card__descricao">Pão artesanal na manteiga, quentinho</p>
+        <span class="card__preco">R$ 8,00</span>
+      </article>
+
+      <article class="card">
+        <h3 class=" card__titulo">Bolo do dia</h3>
+         <p class="card__descricao">Fatia generosa feita na nossa cozinha</p>
+        <span class="card__preco">R$ 10,00</span>
+  </article>
+ </div>
+</div>
+</section>
+
+<section id="contato" class="contato">
+      <div class="container contato_conteudo">
+        <div class="contato_info">
+          <h2>Venha nos visitar</h2>
+          <p>Rua das Flores, 123 - Centro</p>
+          <p>Aberto de terça a domingo, das 8h às 19h</p>
+          <p>Telefone: (47) 99999-0000</p>
+        </div>
+        <div class="contato_acao">
+          <a href="#" class="botao botao-reserva">Reservar uma mesa</a>
+        </div>
+      </div>
+   </section>
+  </main>
+
+</body>
+</html>
